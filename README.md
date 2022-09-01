@@ -51,7 +51,7 @@ CTR+O Enter CRT+X
 
 <code>nano minima_cron_minima_9001.sh</code>
 
-вносите правки в файл (меняете "ваш UID" на настоящий UID)
+вносите правки в файл (меняете везде "ваш UID" на настоящий UID)
 
 CTR+O Enter CRT+X
 
