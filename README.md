@@ -6,21 +6,21 @@
 
 Запускаем скрипт установки
 
-<code>wget -O minima_setup.sh https://raw.githubusercontent.com/minima-global/Minima/master/scripts/minima_setup.sh && chmod +x minima_setup.sh && sudo ./minima_setup.sh -r 9002 -p 9001</code>
+<code>wget -O minima_setup.sh https://raw.githubusercontent.com/minima-global/Minima/master/scripts/minima_setup.sh && chmod +x minima_setup.sh && sudo ./minima_setup.sh -p 9001</code>
 
 как пойдут логи CTR+C
 
 Вводим команду:
 
-<code>curl 127.0.0.1:9002/incentivecash%20uid:xxx-xxx-xxx-xxx-xxx</code>
+<code>curl 127.0.0.1:9005/incentivecash%20uid:xxx-xxx-xxx-xxx-xxx</code>
 
 ![Screenshot_5](https://user-images.githubusercontent.com/100018176/187982681-17412873-ac59-40ab-ac49-80a5e661df3e.png)
 
-<i>пример: curl 127.0.0.1:9002/incentivecash%20uid:00F3E50D-5A52-444B-8F1A-0DA72D6CAA84</i>
+<i>пример: curl 127.0.0.1:9005/incentivecash%20uid:00F3E50D-5A52-444B-8F1A-0DA72D6CAA84</i>
 
 ПОЛЕЗНЫЕ КОМАНДЫ
 
-<code>curl 127.0.0.1:9002/incentivecash | jq</code>   -  Выводит информацию о ревардах
+<code>curl 127.0.0.1:9005/incentivecash | jq</code>   -  Выводит информацию о ревардах
 
 p.s.
 подойтет всем, кто администрирует не одну ноду
