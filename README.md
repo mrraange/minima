@@ -4,7 +4,7 @@
 
 <code>sudo apt update && sudo apt install wget && sudo apt install curl -y</code>
 
-Запускаем скрипт установки
+Запускаем скрипт установк
 
 <code>wget -O minima_setup.sh https://raw.githubusercontent.com/minima-global/Minima/master/scripts/minima_setup.sh && chmod +x minima_setup.sh && sudo ./minima_setup.sh -p 9001</code>
 
