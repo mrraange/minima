@@ -1,6 +1,6 @@
 # # minima
 
-Обновляем пакет
+Обновляем пакеты
 
 <code>sudo apt update && sudo apt install wget && sudo apt install curl -y</code>
 
